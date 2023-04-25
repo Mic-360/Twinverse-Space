@@ -18,7 +18,7 @@ export default function Home() {
               Making The World Work Better
             </span>
             <form
-              action="mailto:someone@example.com"
+              action="mailto:info.wewer@gmail.com"
               class="flex justify-end mt-8 mr-2"
             >
               <Button />
