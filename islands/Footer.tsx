@@ -5,7 +5,7 @@ const Footer = () => {
         <a href="/">
           <img
           class="h-8 mx-auto mb-4 drop-shadow-2xl"
-          src="/logo.png"
+          src="/logoImage.png"
           alt="Logo"
         />
         </a>
