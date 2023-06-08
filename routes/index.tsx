@@ -7,10 +7,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TwinVerse Technologies</title>
-        <link rel="icon" href="/logo.png" />
+        <title>Twinverse Technologies™</title>
+        <link rel="icon" href="/imgs/logoImage.svg" />
+        <link rel="stylesheet" href="globals.css" />
       </Head>
-      <Video src="/background.mp4" type="video/mp4" />
+      <Video src="/video/background.mp4" type="video/mp4" />
       <div class="flex justify-center items-center h-screen text-gray-600 drop-shadow-[0_5px_3px_rgba(255,255,255,0.8)]">
         <div>
           <div class="mb-4 mt-16 mx-8 text-center">

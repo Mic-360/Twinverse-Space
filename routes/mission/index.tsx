@@ -1,10 +1,16 @@
+import { Head } from "$fresh/runtime.ts";
 import Footer from "../../islands/Footer.tsx";
 import Video from "../../islands/Video.tsx";
 
 const Misson = () => {
   return (
     <>
-      <Video src="/background.mp4" type="video/mp4" />
+    <Head>
+        <title>Twinverse Technologies™</title>
+        <link rel="icon" href="/imgs/logoImage.svg" />
+        <link rel="stylesheet" href="globals.css" />
+      </Head>
+      <Video src="/video/background.mp4" type="video/mp4" />
       <div class="flex flex-col justify-center items-center h-screen text-gray-600 drop-shadow-[0_5px_3px_rgba(255,255,255,0.8)]">
         <div>
           <div class="mb-16 mx-8 text-center">
@@ -25,28 +31,28 @@ const Misson = () => {
               <a href="https://www.facebook.com/twinversetech/">
                 <img
                   class="h-10 w-10 mx-auto mb-4 drop-shadow-2xl cursor-pointer"
-                  src="/facebook.svg"
+                  src="/imgs/facebook.svg"
                   alt="facebook"
                 />
               </a>
               <a href="https://www.twitter.com/twinversetech/">
                 <img
                   class="h-10 w-10 mx-auto mb-4 drop-shadow-2xl cursor-pointer"
-                  src="/twitter.svg"
+                  src="/imgs/twitter.svg"
                   alt="twitter"
                 />
               </a>
               <a href="https://www.linkedin.com/company/twinversetech/">
                 <img
                   class="h-10 w-10 mx-auto mb-4 drop-shadow-2xl cursor-pointer"
-                  src="/linkedin.svg"
+                  src="/imgs/linkedin.svg"
                   alt="linkedin"
                 />
               </a>
               <a href="https://www.instagram.com/twinversetech/">
                 <img
                   class="h-10 w-10 mx-auto mb-4 drop-shadow-2xl cursor-pointer"
-                  src="/instagram.svg"
+                  src="/imgs/instagram.svg"
                   alt="instagram"
                 />
               </a>
