@@ -1,0 +1,12 @@
+@import url('/static/fonts/archivo-expanded-semibold.ttf');
+
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/archivo-expanded-semibold.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Archivo', serif;
+}
