@@ -6,7 +6,7 @@ import { useRef } from "preact/hooks";
 const Team = () => {
   return (
     <>
-      <Video src="/background.mp4" type="video/mp4" />
+      <Video src="/videos/background.mp4" type="video/mp4" />
       <div class="flex justify-evenly items-center h-screen text-gray-600 drop-shadow-[0_5px_3px_rgba(255,255,255,0.8)] p-4 gap-x-4">
         <div id="image" class="w-2/6">
           <img src="/logo.png" alt="Logo" />
