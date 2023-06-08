@@ -6,7 +6,7 @@ const Misson = () => {
   return (
     <>
     <Head>
-        <title>Twinverse Technologies™</title>
+        <title>Mission - Twinverse™</title>
         <link rel="icon" href="/imgs/logoImage.svg" />
         <link rel="stylesheet" href="globals.css" />
       </Head>
