@@ -28,28 +28,28 @@ const Misson = () => {
               immersive experiences.
             </article>
             <span class="flex justify-between text-center gap-x-20 mt-12">
-              <a href="https://www.facebook.com/twinversetech/">
+              <a target='_blank' href="https://www.facebook.com/twinversetech/">
                 <img
                   class="h-10 w-10 mx-auto mb-4 drop-shadow-2xl cursor-pointer"
                   src="/imgs/facebook.svg"
                   alt="facebook"
                 />
               </a>
-              <a href="https://www.twitter.com/twinversetech/">
+              <a target='_blank' href="https://www.twitter.com/twinversetech/">
                 <img
                   class="h-10 w-10 mx-auto mb-4 drop-shadow-2xl cursor-pointer"
                   src="/imgs/twitter.svg"
                   alt="twitter"
                 />
               </a>
-              <a href="https://www.linkedin.com/company/twinversetech/">
+              <a target='_blank' href="https://www.linkedin.com/company/twinversetech/">
                 <img
                   class="h-10 w-10 mx-auto mb-4 drop-shadow-2xl cursor-pointer"
                   src="/imgs/linkedin.svg"
                   alt="linkedin"
                 />
               </a>
-              <a href="https://www.instagram.com/twinversetech/">
+              <a target='_blank' href="https://www.instagram.com/twinversetech/">
                 <img
                   class="h-10 w-10 mx-auto mb-4 drop-shadow-2xl cursor-pointer"
                   src="/imgs/instagram.svg"
