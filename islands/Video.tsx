@@ -10,7 +10,7 @@ const Video = (props: VideoProps) => {
       muted
       loop
       playsInline
-      className="absolute object-cover w-full h-full -z-10"
+      className="absolute object-cover w-screen h-screen -z-10"
     >
       <source src={props.src} type={props.type} />
     </video>
