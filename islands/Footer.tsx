@@ -1,19 +1,19 @@
 const Footer = () => {
   return (
-    <div class="absolute bottom-0 left-0 flex px-4 justify-between w-full z-10">
+    <footer class="absolute bottom-0 left-0 invisible sm:visible flex px-4 justify-between items-center w-full z-10">
       <span>
-        <a href="/" class='flex justify-center gap-x-4'>
+        <a href="/" class='flex justify-center items-center gap-x-4'>
           <img
-          class="h-4 mx-auto mb-4 -mr-2 drop-shadow-2xl"
-          src="/imgs/logoVec@3x.svg"
+          class="h-[3.5rem] mx-auto drop-shadow-2xl"
+          src="/imgs/logoVec.svg"
           alt="Logo"
         />
-        <span class='text-white text-2xl -mt-2 font-semibold'>Twinverse™</span>
+        <span class='text-gray-400 hover:text-gray-100 text-2xl -ml-4 font-semibold'>Twinverse™</span>
         </a>
       </span>
-      <footer class="mr-10 flex gap-x-12 font-semibold text-gray-400">
+      <div class="mr-10 flex gap-x-12 font-semibold text-gray-400">
         <a href="/mission" class="hover:text-gray-100 cursor-pointer">
-          Our Misson
+          Our Mission
         </a>
         {/* <a href="/team" class="hover:text-gray-100 cursor-pointer">
           Our Team
@@ -21,8 +21,8 @@ const Footer = () => {
         {/* <a href="/team" class="hover:text-gray-100 cursor-pointer">
           Our Media
         </a> */}
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 };
 export default Footer;
