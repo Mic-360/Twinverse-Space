@@ -2,7 +2,7 @@ import { Head } from "$fresh/runtime.ts";
 import Footer from "../../islands/Footer.tsx";
 import Video from "../../islands/Video.tsx";
 
-const Misson = () => {
+const Mission = () => {
   return (
     <>
     <Head>
@@ -65,4 +65,4 @@ const Misson = () => {
   );
 };
 
-export default Misson;
+export default Mission;
