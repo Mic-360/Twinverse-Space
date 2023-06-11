@@ -1,10 +1,10 @@
 const Button = () => {
   return (
-    <button type='submit' class="flex justify-center items-center flex-col animate-pulse">
+    <button type='submit' class="flex justify-center items-center flex-col rounded-lg border-gray-400 border-2">
       <a
         target='_blank'
-        href="/"
-        class="bg-transparent border-gradient-yellow-blue border-solid border-2 hover:border-gray-100 text-gray-400 hover:text-gray-100 shadow font-bold text-sm py-3 px-4 rounded-lg flex justify-start items-center cursor-pointer mt-4"
+        href="/waitlist"
+        class="text-gray-400 hover:text-gray-100 tracking-tightest shadow font-bold text-sm py-1 px-1 md:py-2 lg:py-3 md:px-1.5 lg:px-2 flex justify-start items-center cursor-pointer animate-pulse"
       >
         <span>Join The Waitlist</span>
         <img
