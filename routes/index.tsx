@@ -18,7 +18,7 @@ export default function Home() {
         <div>
           <div class="mb-4 mt-16 mx-8 text-center">
             <span class="block text-2xl md:text-3xl lg:text-5xl font-bold text-gray-300 mb-3 hover:text-white">
-              Making The World Work Better
+              Build Beyond Reality
             </span>
             <form
               action={/* @__PURE__ */ "/waitlist"}

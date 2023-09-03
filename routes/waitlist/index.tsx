@@ -20,7 +20,7 @@ const Waitlist = () => {
           </div>
           <div class='flex justify-center items-center w-full'>
             <span>
-              We will be connectong with you soon.
+              We will be connecting with you soon.
             </span>
           </div>
         </div>
