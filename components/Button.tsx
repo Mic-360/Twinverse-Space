@@ -1,6 +1,6 @@
 const Button = () => {
   return (
-    <button type='submit' class="flex justify-center items-center flex-col rounded-lg border-gray-400 border-2">
+    <button type='submit' class="flex w-full justify-center items-center flex-col rounded-lg border-gray-400 border-2">
       <a
         target='_blank'
         href="/waitlist"
