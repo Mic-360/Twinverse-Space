@@ -4,11 +4,11 @@ const Footer = () => {
       <span>
         <a href="/" class='flex justify-center items-center gap-x-4'>
           <img
-          class="h-[3.5rem] mx-auto drop-shadow-2xl"
+          class="h-12 mx-auto drop-shadow-2xl"
           src="/imgs/logoVec.svg"
           alt="Logo"
         />
-        <span class='text-gray-400 hover:text-gray-100 text-2xl -ml-4 font-semibold'>Twinverse™</span>
+        <span class='text-gray-400 hover:text-gray-100 text-xl -ml-4 font-semibold'>Twinverse™</span>
         </a>
       </span>
       <div class="mr-10 flex gap-x-12 font-semibold text-gray-400">
