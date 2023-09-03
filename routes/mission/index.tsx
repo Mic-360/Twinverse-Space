@@ -14,7 +14,7 @@ const Mission = () => {
       <Navbar />
       <div class="flex justify-center items-center h-screen w-full text-gray-400 drop-shadow-[0_5px_3px_rgba(255,255,255,0.8)]">
       <Video src="/videos/background.mp4" type="video/mp4" />
-        <div class='flex flex-col justify-center items-center border-2'>
+        <div class='flex flex-col justify-center items-center'>
           <div class="mb-4 mt-16 mx-8 text-center w-2/3">
             <h1 class="text-xl md:text-2xl lg:text-5xl mb-10 text-gray-200">Our Mission.</h1>
             <article class='text-md md:text-xl lg:text-2xl text-center tracking-tight text-justify lg:text-center'>
