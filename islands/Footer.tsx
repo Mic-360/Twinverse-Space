@@ -15,9 +15,9 @@ const Footer = () => {
         <a href="/mission" class="hover:text-gray-100 cursor-pointer">
           Our Mission
         </a>
-        {/* <a href="/team" class="hover:text-gray-100 cursor-pointer">
-          Our Team
-        </a> */}
+        <a href="/demo" class="hover:text-gray-100 cursor-pointer">
+          Our Work
+        </a>
         {/* <a href="/team" class="hover:text-gray-100 cursor-pointer">
           Our Media
         </a> */}

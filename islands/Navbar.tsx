@@ -6,12 +6,13 @@ const Navbar = () => {
   return (
     <nav class="absolute top-0 left-0 sm:invisible flex px-4 justify-between items-center w-full z-10">
       <span>
-        <a href="/" class="flex justify-center items-center gap-x-4">
+        <a href="/" class="flex justify-center items-center">
           <img
             class="h-16 mx-auto drop-shadow-2xl"
             src="/imgs/logoVec.svg"
             alt="Logo"
           />
+        <span class="text-md text-gray-400 hover:bg-gray-100 block py-2">Home</span>
         </a>
       </span>
       <button
@@ -39,6 +40,15 @@ const Navbar = () => {
               class="text-sm hover:bg-gray-100 block px-4 py-2"
             >
               Our Mission
+            </a>
+          </li>
+          <li>
+            <a
+              onClick={() => setClicked(!clicked)}
+              href="/demo"
+              class="text-sm hover:bg-gray-100 block px-4 py-2"
+            >
+              Our Work
             </a>
           </li>
         </ul>
