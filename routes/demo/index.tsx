@@ -31,7 +31,7 @@ const Demo = () => {
           <div class="w-full h-96 mt-8 lg:mt-0 md:mt-0 md:h-1/2 lg:h-full flex flex-col justify-center md:px-14 px-8 lg:px-4 lg:pl-10">
             <ImageCarousel images={images} />
           </div>
-          <div class="w-full h-96 lg:h-full lg:w-full flex flex-col justify-center px-10 md:px-24">\
+          <div class="w-full h-96 lg:h-full lg:w-full flex flex-col justify-center px-10 md:px-24">
             <h1 class="text-lg md:text-xl lg:text-3xl mb-8 text-gray-200">Eco Retreat.</h1>
             <article class="text-md md:text-xl lg:text-2xl tracking-tight text-justify lg:text-start mb-4">
               Immerse yourself in the beauty of Bhubaneswar's Eco Retreat with
