@@ -36,7 +36,7 @@ const Demo = () => {
             <article class="text-md md:text-xl lg:text-2xl tracking-tight text-justify lg:text-start mb-4">
               Immerse yourself in the beauty of Bhubaneswar's Eco Retreat with
               our new virtual reality experience. Step into a world of lush
-              greenery, cascading waterfalls, and stunning architecture.
+              greenery, cascading Ocean, and stunning architecture.
               Experience the peace and tranquility of this hidden gem from the
               comfort of your own home.
             </article>
