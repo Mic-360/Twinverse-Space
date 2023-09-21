@@ -40,13 +40,13 @@ const Demo = () => {
               Experience the peace and tranquility of this hidden gem from the
               comfort of your own home.
             </article>
-            <form action="https://www.wewer.live/">
+            <form action="https://eco-treats.vercel.app">
               <button
                 type={"submit"}
-                className="flex justify-center items-center flex-col rounded-lg border-gray-400 border-2 px-4"
+                className="flex justify-center items-center flex-col rounded-lg ring-2 ring-white ring-offset-2 ring-offset-[#eeff15] px-4"
               >
-                <div className="text-gray-400 hover:text-gray-100 tracking-tightest shadow font-bold text-sm py-1 px-1 md:py-2 lg:py-3 md:px-1.5 lg:px-2 flex justify-start items-center cursor-pointer animate-pulse">
-                  <span>Coming Soon...</span>
+                <div className="text-gray-100 tracking-tightest shadow font-bold text-sm py-1 px-1 md:py-2 lg:py-3 md:px-1.5 lg:px-2 flex justify-start items-center cursor-pointer animate-pulse">
+                  <span>Experience Now</span>
                   <img
                     className="fill-current -ml-4 w-10 h-6"
                     src="/imgs/arrow.svg"
